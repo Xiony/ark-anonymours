@@ -1,0 +1,184 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+    height: 18px;
+}
+
+::-webkit-scrollbar-button {
+    width: 100px;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #000000;
+    border-radius: 100px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ffffff;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: #000000;
+    }
+
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px dashed #000000;
+    border-radius: 100px;
+}
+
+    ::-webkit-scrollbar-track:hover {
+        background: #666666;
+    }
+
+    ::-webkit-scrollbar-track:active {
+        background: #333333;
+    }
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+@font-face {
+    font-family: farcry;
+    src: url(/Content/fonts/farcry.TTF);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(/Content/fonts/Lato-Bold.ttf);
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    color: White;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+menu {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(70,70,70,.8) 0%,rgba(20,20,20,.8) 100%);
+    -webkit-box-shadow: 0px 5px 15px 0px #000000;
+    -o-box-shadow: 0px 5px 15px 0px #000000;
+    box-shadow: 0px 5px 15px 0px #000000;
+    padding-top: 5px;
+}
+
+    menu navButton text {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        font-size: 20px;
+    }
+
+    menu navButton {
+        display: inline-block;
+        height: 100%;
+        text-align: left;
+        color: White;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+        menu navButton:hover {
+            cursor: pointer;
+            border-bottom: 3px solid #9bddea;
+        }
+
+        menu navButton.selected {
+            border-bottom: 3px solid #9bddea;
+        }
+
+            menu navButton.selected text {
+                color: #9bddea;
+            }
+
+#mainPage #fourth {
+    background: url('/Medias/Images/bg_map.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#mainPage #home {
+    background: url('/Medias/Images/background.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#mainPage #second {
+    background: url('/Medias/Images/bg_dodo.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#mainPage #third {
+    background: url('/Medias/Images/bg_dilo.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.mainContent {
+    position: relative;
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, rgba(50,50,50,.6) 0%,rgba(10,10,10,.6) 100%);
+    -webkit-box-shadow: 0px 5px 15px 0px #000000;
+    -o-box-shadow: 0px 5px 15px 0px #000000;
+    box-shadow: 0px 5px 15px 0px #000000;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+    .mainContent h2, .mainContent p {
+        color: White;
+    }
+
+
+    .mainContent .arkDb {
+        width: 100%;
+        height: 85%;
+    }
+
+#connectingBear {
+    position: fixed;
+    bottom: -40px;
+    right: 0px;
+    width: 250px;
+    height: 300px;
+}
+
+#connectingBear .logoAnonymours {
+    width: 100%;
+}
+
+
+
+#connectingBear a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+#connectingBear span{
+    position: absolute;
+    top: 22px;
+    left: 28px;
+}
